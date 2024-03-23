@@ -30,7 +30,7 @@ nav {
 .nav-links li {
     list-style: none;
     display: inline-block;
-    margin: 5px 5px;
+    margin: 5px 10px;
 }
 
 .nav-links a {
@@ -45,4 +45,52 @@ nav {
     padding: 5px 20px;
     border-radius: 20px;
     font-size: 14px;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.header h1 {
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 22%;
+    color: #fff;
+}
+
+.search-bar {
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search-bar form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search-bar form input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.search-bar form button {
+    background: #ff5361;
+    border: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-bar form button img {
+    width: 25px;
+    margin-top: 7px;
 }
