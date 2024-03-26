@@ -128,6 +128,30 @@ nav {
 }
 
 .exclusives div p {
-    color: #333;
+    color: #fff;
     font-weight: 600;
+}
+
+.exclusives div {
+    position: relative;
+}
+
+.exclusives div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.trending div img {
+    width: 100%;
+    border-radius: 10px;
+
 }
