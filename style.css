@@ -155,3 +155,89 @@ nav {
     border-radius: 10px;
 
 }
+
+.cta {
+    margin: 100px 0;
+    padding: 5%;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.cta h3 {
+    font-size: 3vw;
+    font-weight: 500;
+    line-height: 4.3vw;
+    color: #fff;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.cta-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* ..........Travellers Stories......... */
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    border-bottom: 30px;
+}
+
+.stories div img {
+    width: 100%;
+}
+
+.stories div {
+    position: relative;
+    text-align: center;
+}
+
+.stories p {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 26px;
+}
+
+.start-btn {
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    display: block;
+    width: 80%;
+    max-width: 350px;
+    text-align: center;
+    margin: 80px auto;
+    padding: 10px 0;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+/* ---------about-msg--------- */
+
+.about-msg {
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about-msg h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
